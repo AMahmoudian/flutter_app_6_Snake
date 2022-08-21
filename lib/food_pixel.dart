@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SnakePixel extends StatelessWidget {
-  const SnakePixel({Key? key}) : super(key: key);
+class FoodPixel extends StatelessWidget {
+  const FoodPixel({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +9,7 @@ class SnakePixel extends StatelessWidget {
       padding: EdgeInsets.all(2.5),
       child: Container(
         decoration: BoxDecoration(
-          color: Color(0xFF95bf03),
+          color: Color(0xFFe58d51),
           borderRadius: BorderRadius.all(
             Radius.circular(4),
           ),
